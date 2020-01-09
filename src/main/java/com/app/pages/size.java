@@ -15,7 +15,8 @@ public class size extends basepage
   @FindBy(xpath = "//label[@for='layered_id_attribute_group_3']")
   private WebElement sizeLL;
   
-  public size111(777)
+  public size()
+
   {
 	PageFactory.initElements(driver, this); 
   }

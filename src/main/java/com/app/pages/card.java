@@ -13,7 +13,7 @@ private WebElement addcart;
 @FindBy(xpath= "//a[@title='Proceed to checkout']")
 private WebElement proceeds;
 
-public card()
+public card333()
 {
 	PageFactory.initElements(driver, this);
 }

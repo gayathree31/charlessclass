@@ -8,7 +8,7 @@ public class mailbox extends basepage
 {
 	 @FindBy(id="newsletter-input")
 	  private WebElement mail;
-	 @FindBy(id="submitNewsletter")
+	 @FindBy(name="submitNewsletter")
 	  private WebElement button;
 	 
 public mailbox()
@@ -16,12 +16,14 @@ public mailbox()
 	PageFactory.initElements(driver, this);
 
 }
-public void maill()
+public WebElement  getmaill()
 {
-	mail.sendKeys("qwe@com");
+	mail.sendKeys("gayathree@yahoo.in");
+	return mail;
 }
-public void btn()
+public WebElement getbtn()
 {
 	button.click();
+	return button;
 }
 }

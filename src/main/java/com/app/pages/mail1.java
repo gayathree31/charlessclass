@@ -14,5 +14,9 @@ public mail1()
 {
 	PageFactory.initElements(driver, this);
 }
-
+public WebElement verify()
+{
+	return notify;
+	
+}
 }

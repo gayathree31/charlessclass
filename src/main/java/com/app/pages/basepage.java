@@ -15,7 +15,7 @@ import org.openqa.selenium.WebDriver;
 			public static WebDriver driver;
 			public String browser = "chrome";
 
-			public basepage() 
+			public basepage 11() 
 			{
 				if (driver == null) {
 					if (browser.equals("chrome")) {
